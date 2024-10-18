@@ -88,3 +88,9 @@ const bar = (a, b, ...rest) => {
 bar(1, 2, 3, 4, 5, 6);
 
 console.log('Fin de archivo', 23, true, 'Pepe', { name: 'Pepe' });
+
+// Intercambiar valores
+
+let a = 1;
+let b = 2;
+[b, a] = [a, b];
