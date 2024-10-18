@@ -34,10 +34,10 @@ console.log(foo.employee?.address?.postalCode);
 // ¿null es un object?
 console.log('Using bar');
 let bar = 22;
-bar.any = 1;
+// Error bar.any = 1;
 console.log(bar.any);
 
-bar = null;
+// Error bar = null;
 // Error Cannot set property 'any' of null
 // bar.any = 1;
 // console.log(bar.any);

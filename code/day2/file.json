@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Pepe",
+        "age": 22,
+        "address": {
+            "city": "Castellón",
+            "country": "Spain"
+        }
+    }
+]
